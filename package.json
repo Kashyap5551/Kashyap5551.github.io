@@ -1,0 +1,45 @@
+{
+  "name": "kashyaps-website",
+  "homepage": "https://kashyap5551.github.io/",
+  "description": "This is my personal website, this initially began as a side project to learn react, node and tailwind css. However, it turned out to be great so I am using it as my main site.",
+  "version": "0.1.0",
+  "author": "Kashyap Patel",
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.1",
+    "classnames": "^2.3.1",
+    "emailjs-com": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "2.1.8",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
