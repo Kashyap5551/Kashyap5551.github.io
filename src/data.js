@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React.js, Node.js and Tailwind css",
     description:
       "This is my personal website that you are currently looking at. I have used React for the front-end with Node.js and Tailwind css",
-    image: "./project1.png",
+    image: "./project1.PNG",
     link: "https://kashyap5551.github.io/",
   },
   {
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Currently being built",
     image: "./construction2.svg",
-    link: "",
+    link: "#projects",
   },
    {
     title: "Work in Progress",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Currently being built",
     image: "./construction2.svg",
-    link: "",
+    link: "#projects",
   },
     {
     title: "Work in Progress",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Currently being built",
     image: "./construction2.svg",
-    link: "",
+    link: "#projects",
   },
   
 ];

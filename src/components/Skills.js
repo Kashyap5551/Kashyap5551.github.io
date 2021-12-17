@@ -12,7 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I love personal develoment and to challenge myself to be better. I currently know these technologies and more (looking at you HTML/CSS. Also see resume for more).
+            I love personal develoment and challenging myself. I currently know these technologies and more (looking at you, HTML/CSS. Also see resume for more).
             I am extremely quick in learning new ways and technologies to implement polished features.
           </p>
         </div>

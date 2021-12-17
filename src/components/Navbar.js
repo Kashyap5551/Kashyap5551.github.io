@@ -138,6 +138,24 @@ function Navbar() {
                 >
                   Contact Me
                 </a>
+                <a
+                  href="https://github.com/Kashyap5551"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kashyap-patel-65045315b/"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="../myResume.pdf"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  My Résumé
+                </a>
               </div>
             </div>
           )}

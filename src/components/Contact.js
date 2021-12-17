@@ -64,7 +64,8 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Please feel free to reach out. Whether it is for a job or a project. I'd be glad to hear from you.
+            Please feel free to reach out. Whether it is for a job or a project. I'd be glad to hear from you. <br />
+            Sending this form once is sufficient!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

@@ -8,10 +8,10 @@ export default function About() {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hello, I am Kashyap. My pronouns are He/Him.
                         <br className="hidden lg:inline-block" />
-                        I am in my final year of Computer Science at York University
+                         I am in my final year of Computer Science at York University.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I am a React.js enthusiest. I am in love with Tailwind css. I am very passionate about Full-Stack development. I am currently learning Remix, as I believe it will change the future of the Web.
+                        I am a React.js enthusiast. I am in love with Tailwind css. I am passionate about Full-Stack development. I am currently learning Remix, as I believe it will change the future of the Web.
                     </p>
                     <div className="flex justify-center">
                         <a
@@ -22,7 +22,7 @@ export default function About() {
                         <a
                         href="#projects"
                         className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-xl">
-                        See My Side Projects
+                        See my side projects
                         </a>
                     </div>
                 </div>
