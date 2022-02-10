@@ -1,9 +1,10 @@
+const tailwindcss = require('tailwindcss')
 const { fontFamily} = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -14,7 +15,12 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      typgraphy: ["dark"],
+    },
   },
-  plugins: [],
+  plugins: [
+    require('autoprefixer'),
+    require('tailwindcss'),
+  ],
 }

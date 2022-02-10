@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -7,22 +7,22 @@ import Skills from "./components/Skills";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 
-class App extends Component {
+export default function App() {
+  
 
-  render() {
+  
     return (
-      <div className="App">
-        <main className="text-gray-400 bg-gray-900 body-font">
-          <Navbar />
-          <About />
-          <Projects />
-          <Skills />
-          <Contact />
-          <ScrollToTop />
-        </main>
+      <div>
+        <div className="App">
+          <main className="text-gray-900 bg-white dark:text-white dark:bg-gray-900 body-font">
+            <Navbar />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+            <ScrollToTop />
+          </main>
+          </div>
       </div>
     );
-  }
 }
-
-export default App;

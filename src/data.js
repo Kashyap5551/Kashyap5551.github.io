@@ -8,30 +8,29 @@ export const projects = [
     link: "https://kashyap5551.github.io/",
   },
   {
+    title: "Employee Manager",
+    subtitle:
+      "React.js, Bootstrap 5, SpringBoot, Spring Data & JPA, Axios and MySQL",
+    description:
+      "An employee manager, in which you can Add, Delete and Update employees' information",
+    image: "./project2.PNG",
+    link: "https://ems-appication-frontend.herokuapp.com/",
+  },
+  {
+    title: "JWT-Auth-App",
+    subtitle: "React.js, Express.js, Node.js, PostgreSQL, JWT",
+    description:
+      "Authentication software that generates a JWT in browser local storage, which lets you stay logged in. Also passwords are stored in a secure DB with SHA252 encryption and overall best practices.",
+    image: "./project3.PNG",
+    link: "#projects",
+  },
+  {
     title: "Work in Progress",
     subtitle: "",
-    description:
-      "Currently being built",
+    description: "Currently being built",
     image: "./construction2.svg",
     link: "#projects",
   },
-   {
-    title: "Work in Progress",
-    subtitle: "",
-    description:
-      "Currently being built",
-    image: "./construction2.svg",
-    link: "#projects",
-  },
-    {
-    title: "Work in Progress",
-    subtitle: "",
-    description:
-      "Currently being built",
-    image: "./construction2.svg",
-    link: "#projects",
-  },
-  
 ];
 
 /*export const testimonials = [
@@ -54,14 +53,15 @@ export const projects = [
 export const skills = [
   "JavaScript",
   "React.js",
+  "Express.js & Axios",
   "Next.js",
   "Node.js",
-  "GraphQL & REST",
-  "Tailwind css",
-  "Styled Components & Chakra UI",
+  "GraphQL & RESTful APIs",
+  "Tailwind CSS & Bootstrap 5",
+  "Styled Components, Material UI & Chakra UI",
   "Java / Kotlin",
-  "Spring Boot",
-  "PostgresSQL",
-  "Git & Agile",
-  "Rapid deployment on AWS Lambda, Heroku and Netlify",
+  "Spring & Spring Boot",
+  "PostgresSQL, MySQL & MongoDB",
+  "Git, Docker, Kubernetes & Agile",
+  "Rapid deployment on AWS, GCP, Heroku and Netlify",
 ];
