@@ -11,8 +11,7 @@ export default function About() {
             York University with a B.S. in Computer Science.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a React.js enthusiast. I am in love with Tailwind css. I am
-            passionate about Full-Stack development. I am currently learning
+            I am passionate about The Tech industry. I am currently learning
             Redis, Elasticsearch and Apache Kafka.
           </p>
           <div className="flex justify-center">
