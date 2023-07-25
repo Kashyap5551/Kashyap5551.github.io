@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is the GitHub repository for my personal website, built using React.js for the frontend. The website serves as a showcase of my portfolio, projects, and blog posts. Feel free to explore and learn more about my work and interests!
+This is the GitHub repository for the deployed version of my personal website, built using React.js for the frontend. The website serves as a showcase of my portfolio, projects, and blog posts. Feel free to explore and learn more about my work and interests!
 
 ## Table of Contents
 
