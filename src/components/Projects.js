@@ -12,7 +12,8 @@ export default function Projects() {
             Apps that I've built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I love to build polished Full-stack apps. My favorite stack is the P(postgresSQL) E(Express.js) R(React.js) N(Node.js) stack.
+            I love to build polished Full-stack apps. My favorite stack
+            currently is the React, Next.js, and MongoDB.
           </p>
         </div>
         <div className="flex flex-wrap m-4">
@@ -20,7 +21,8 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-10">
+              className="sm:w-1/2 w-100 p-10"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -34,7 +36,9 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-white">{project.description}</p>
+                  <p className="leading-relaxed text-white">
+                    {project.description}
+                  </p>
                 </div>
               </div>
             </a>

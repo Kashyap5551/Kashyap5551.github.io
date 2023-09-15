@@ -8,6 +8,22 @@ export const projects = [
     link: "https://kashyap5551.github.io/",
   },
   {
+    title: "GenieAI",
+    subtitle: "React.js, TailwindCSS, Next.js 13, Prisma, Stripe API and MySQL",
+    description:
+      "A generative AI SaaS platform that generates unique content for users",
+    image: "./construction2.svg",
+    link: "#projects",
+  },
+  {
+    title: "Fulfiller",
+    subtitle: "React.js, AWS Lambda, AWS DynamoDB, AWS S3",
+    description:
+      "A serverless order fulfillment application using AWS-managed services",
+    image: "./construction2.svg",
+    link: "#projects",
+  },
+  {
     title: "Employee Manager",
     subtitle:
       "React.js, Bootstrap 5, SpringBoot, Spring Data & JPA, Axios and MySQL",
