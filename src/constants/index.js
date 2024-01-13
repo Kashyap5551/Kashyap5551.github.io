@@ -5,6 +5,7 @@ import {
   tesla,
   moodys,
   allenfort,
+  genieailogo,
 } from "../assets/images";
 import {
   postgressql,
@@ -273,11 +274,18 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Work in Progress",
+    iconUrl: genieailogo,
+    theme: "btn-back-blue",
+    name: "GenieAI",
     description:
-      "I have multiple projects in the works. I'll update this page once I have deployed them to production. For now check out my GitHub!",
+      "SaaS GenieAI: Next.js app with React, Tailwind, Prisma, Stripe. Clerk Auth, AI tools, responsive design, form validation, subscription model. Demo of route handling, direct DB access, layout reuse.",
+    link: "https://genie-ai-saas.vercel.app/",
+  },
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-blue",
+    name: "Work in Progress",
+    description: "",
     link: "https://github.com/kashyap5551",
   },
 ];

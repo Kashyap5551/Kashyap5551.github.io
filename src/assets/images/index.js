@@ -6,5 +6,16 @@ import tesla from "./tesla.png";
 import logo from "./logo.svg";
 import moodys from "./moodys.png";
 import allenfort from "./allenfort.png";
+import genieailogo from "./genieailogo.png";
 
-export { hero, meta, shopify, starbucks, tesla, logo, moodys, allenfort };
+export {
+  hero,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  logo,
+  moodys,
+  allenfort,
+  genieailogo,
+};
