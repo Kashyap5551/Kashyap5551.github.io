@@ -6,6 +6,7 @@ import {
   moodys,
   allenfort,
   genieailogo,
+  inzone,
 } from "../assets/images";
 import {
   postgressql,
@@ -206,16 +207,17 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software Engineering Intern",
-    company_name: "Moody's Analytics",
-    icon: moodys,
-    iconBg: "#1B95E1",
-    date: "May 2022 - August 2022",
+    title: "Software Engineer",
+    company_name: "Inzone Supplements",
+    icon: inzone,
+    iconBg: "#C0C0C0",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using Java Spring and other related technologies.",
-      "Collaborating with cross-functional teams including designers, Business Analysts, and other developers to create high-quality products.",
-      "Implementing scalable REST APIs using Spring framework ensuring robust architechture.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of a Next.js e-commerce platform, boosting user experience with 40% faster page loads and scaling to 10,000 monthly active users.",
+      "Integrated Redis caching with MongoDB, slashing database load and speeding up read operations by 30%, enhancing system responsiveness.",
+      "Implemented Next.js Auth and Stripe API integration, cutting transaction times by 32%, for smoother customer experiences.",
+      "Designed a Payload CRM admin dashboard, improving administrative efficiency and enabling real-time monitoring of user activity and sales",
+      "Managed AWS Amplify and Cloudfront deployments, achieving 99.9% uptime and reducing infrastructure costs by 22% during traffic peaks.",
     ],
   },
   {
@@ -223,14 +225,29 @@ export const experiences = [
     company_name: "Allenfort Inc",
     icon: allenfort,
     iconBg: "#C7E1F1",
-    date: "August 2021 - April 2022",
+    date: "August 2021 - Present",
     points: [
-      "Engineered property management SAAS app for 100+ B2B clients, prioritizing reliability and scalability.",
-      "Implemented Redis for x6 faster data retrieval.",
-      "Collaborated on React front-end, reducing bounce rate by 25% and boosting user engagement by 15%.",
-      "Designed app for seamless operation with diverse workloads.",
+      "Orchestrated full-cycle development initiatives using a diverse tech stack, achieving a notable 20% increase in client satisfaction ratings.",
+      "Engineered cost-efficient AWS infrastructures for various clients, reducing operational expenses by 15% and enhancing system scalability.",
+      "Successfully delivered custom solutions to 8 clients, with ongoing projects focused on optimizing cloud architecture for improved performance and reliability.",
+      "Coordinated with multidisciplinary teams to seamlessly execute 12 software releases, consistently exceeding project timelines and client expectations.",
+      "Independently developed micro-SaaS projects, contributing to company growth and diversifying revenue streams.",
     ],
   },
+  {
+    title: "Software Engineering Intern",
+    company_name: "Moody's Analytics",
+    icon: moodys,
+    iconBg: "#1B95E1",
+    date: "June 2022 - August 2022",
+    points: [
+      "Contributed to a Java Spring Boot-based enterprise application for the Canadian Securities Institute, generating $19.3 million in revenue, involving extensive collaboration with stakeholders and product owners.",
+      "Developed scalable REST APIs using the Spring framework, reducing response times by 30% and significantly improving data processing speeds.",
+      "Integrated Okta SSO OAuth into enterprise software, achieving a fivefold decrease in login times and substantially boosting security measures.",
+      "Applied CI/CD practices, engaged in pull requests, code reviews, and agile development cycles, alongside using JIRA for project management and RestAssured for comprehensive testing, enhancing software reliability and team efficiency.",
+    ],
+  },
+
   //   {
   //     title: "Web Developer",
   //     company_name: "Shopify",

@@ -7,6 +7,7 @@ import logo from "./logo.svg";
 import moodys from "./moodys.png";
 import allenfort from "./allenfort.png";
 import genieailogo from "./genieailogo.png";
+import inzone from "./inzone.png";
 
 export {
   hero,
@@ -18,4 +19,5 @@ export {
   moodys,
   allenfort,
   genieailogo,
+  inzone,
 };
